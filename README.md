@@ -8,8 +8,8 @@ Contains data from:
 - GoS6 up until block `38900`
 
 # Rebuild Database
-use winrar for gos.part01 to 03.rar
-cat gos.sql.gz.* | gunzip >gos.sql
+- use winrar for gos.part01 to 03.rar
+- cat gos.sql.gz.* | gunzip >gos.sql
 
 # SHA256 of File
 f570d561f1d184a1d0e7c9f0ed12239130b0bc03936ed51aa80e0fddc4d9e22c  gos.sql.gz

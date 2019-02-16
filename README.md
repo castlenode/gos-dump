@@ -7,7 +7,7 @@ Contains data from:
 - GoS5 up until block `114240`
 - GoS6 up until block `38900`
 
-## Rebuild Database
+## Reconstructing the Database
 
 We had to split the database to upload it on github. Here is how to rebuild it. 
 

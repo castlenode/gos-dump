@@ -7,15 +7,15 @@ Contains data from:
 - GoS5 up until block `114240`
 - GoS6 up until block `38900`
 
-# Rebuild Database
+## Rebuild Database
 
 We had to split the database to upload it on github. Here is how to rebuild it. 
 
-## Using Winrar
+### Using Winrar
 
 Just download the different parts in the `./winrar` folder and rebuild using `Winrar`.
 
-## Using `gunzip`
+### Using `gunzip`
 
 Just use the following command:
 
@@ -23,7 +23,8 @@ Just use the following command:
 cat gunzip/gos.sql.gz.* | gunzip > gos.sql
 ```
 
-# SHA256 of File
+## SHA256 of files
+
 f570d561f1d184a1d0e7c9f0ed12239130b0bc03936ed51aa80e0fddc4d9e22c  gos.sql.gz
 443dfcfe87db6b1e083ed859bfc485b359b12536a46229535557ca5ec2a7bf71  gos.sql.gz.aa
 bc969795405d38116a111ac9e141f41d9f7a12d3241e030cf4a51a086b509287  gos.sql.gz.ab

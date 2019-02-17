@@ -1,5 +1,7 @@
 # Export GoS3
 
+```wget -qO - https://github.com/castlenode/gos-sql/raw/master/GoS3/README.md | grep GoS3.tar\.xz\. | xargs -i bash -c 'n=`echo {} | awk "{ print \\$2 }"`; s=`echo {} | awk "{ print \\$1 }"`; c=`wget -qO - https://github.com/castlenode/gos-sql/raw/master/GoS3/$n | sha256sum - | awk "{ print \\$1 }"`; [ "$s" == "$c" ] && echo $n OK || echo $n ko'```
+
 6755e5187171009b9e5fdf3724dad836a524091fa17d6a9c8dc582bfcac45e60  GoS3.tar.xz
 f4f416172d05f9307b3513ef6c1788bcccf4a3b19a79006b41a25af19adff260  GoS3.tar.xz.aa
 c852f1679dc58c673acf7c9f2aeb47f199fc218c2fd085885910d0d2ce2c5d5e  GoS3.tar.xz.ab

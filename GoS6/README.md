@@ -1,5 +1,7 @@
 # Export GoS6
 
+```wget -qO - https://github.com/castlenode/gos-sql/raw/master/GoS6/README.md | grep GoS6.tar\.xz\. | xargs -i bash -c 'n=`echo {} | awk "{ print \\$2 }"`; s=`echo {} | awk "{ print \\$1 }"`; c=`wget -qO - https://github.com/castlenode/gos-sql/raw/master/GoS6/$n | sha256sum - | awk "{ print \\$1 }"`; [ "$s" == "$c" ] && echo $n OK || echo $n ko'```
+
 61db3eeabb48270322cb8a51cfb2b1e93689f97fed04013d575ab649a538655f  GoS6.tar.xz
 5bdfc9becbe09524e35828e95086fd66be2c8c96ac44951ccf5a9c3826b4ce0f  GoS6.tar.xz.aa
 bd083ffcc9398712a990ea367ec1cab06a153d9c836dd6db2879a91c9b37b875  GoS6.tar.xz.ab
